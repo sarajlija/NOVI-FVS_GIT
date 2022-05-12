@@ -1,36 +1,44 @@
 body {
-  background: rgba(255, 127, 80, 0.0705882353);
+  background: #ff7f5012;
 }
 
 /*ABOUT ME*/
 .about-me .btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d2828), to(#820b0b));
   background: linear-gradient(#2d2828, #820b0b);
   color: var(--bs-white);
-  border-color: rgb(115, 16, 25);
-  font-family: "Libre Baskerville", serif;
+  border-color: #731019;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.25rem;
   color: #ffffff;
+  -webkit-transition: all ease-in-out 400ms;
   transition: all ease-in-out 400ms;
 }
+
 .about-me .btn:hover {
   border: 1px solid #820b0b;
-  background: rgba(255, 127, 80, 0.0705882353);
+  background: #ff7f5012;
   color: #212121;
 }
 
 /*PORTFOLIO BLOCK----CALL TO ACTION*/
 .portfolio-block .btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d2828), to(#820b0b));
   background: linear-gradient(#2d2828, #820b0b);
   color: var(--bs-white);
-  border-color: rgb(115, 16, 25);
-  font-family: "Libre Baskerville", serif;
+  border-color: #731019;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.25rem;
   color: #ffffff;
+  -webkit-transition: all ease-in-out 400ms;
   transition: all ease-in-out 400ms;
-  box-shadow: rgb(115, 16, 25);
+  -webkit-box-shadow: #731019;
+          box-shadow: #731019;
 }
+
 .portfolio-block .btn:hover:focus {
   border: 1px solid #820b0b;
-  background: rgba(255, 127, 80, 0.0705882353);
+  background: #ff7f5012;
   color: #212121;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
